@@ -3,8 +3,8 @@ import time
 
 def tcp_client():
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client_socket.connect(('localhost', 53333))
-    print("Connected to the server at: ('127.0.0.1', 53333)")
+    client_socket.connect(('192.168.1.178', 53333))
+    print("Connected to the server at: ('192.168.1.178', 53333)")
 
     message = b"hello TCP\n"
     start_time = time.perf_counter()

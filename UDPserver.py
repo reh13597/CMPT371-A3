@@ -2,8 +2,8 @@ import socket
 
 def udp_server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    server_socket.bind(('localhost', 53333))
-    print("Server is open on port 53333...")
+    server_socket.bind(('0.0.0.0', 53444))
+    print("Server is open on port 53444...")
 
     counter = 1
     while counter <= 1000:

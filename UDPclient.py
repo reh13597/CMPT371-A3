@@ -8,7 +8,7 @@ def udp_client():
     start_time = time.perf_counter()
 
     for i in range(1000):
-        client_socket.sendto(message, ('localhost', 53333))
+        client_socket.sendto(message, ('192.168.1.178', 53444))
         print(f"Sent message #{i+1}.")
 
     print("1000 messages successfully sent.")
