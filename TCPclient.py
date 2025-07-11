@@ -1,4 +1,4 @@
-""" import socket
+import socket
 import time
 
 def tcp_client():
@@ -24,9 +24,9 @@ def tcp_client():
     print(f"SERVER: {response.decode()}\nRTT: {rtt:.10f} seconds\nDisconnected from the server.\n==========")
 
 if __name__ == "__main__":
-    tcp_client() """
+    tcp_client()
 
-import socket
+""" import socket
 import time
 
 def tcp_client():
@@ -48,4 +48,4 @@ def tcp_client():
     print(f"SERVER: {response.decode()}\nRTT: {rtt:.10f} seconds\nDisconnected from the server.\n==========")
 
 if __name__ == "__main__":
-    tcp_client()
+    tcp_client() """

@@ -1,4 +1,4 @@
-""" import socket
+import socket
 
 def udp_server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -18,9 +18,9 @@ def udp_server():
     print(f"Client sent from: {addr}\nMessage successfully sent.\n==========")
 
 if __name__ == "__main__":
-    udp_server() """
+    udp_server()
 
-import socket
+""" import socket
 
 def udp_server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -37,4 +37,4 @@ def udp_server():
             print("Message successfully sent.\n==========")
 
 if __name__ == "__main__":
-    udp_server()
+    udp_server() """

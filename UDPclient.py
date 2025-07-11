@@ -1,4 +1,4 @@
-""" import socket
+import socket
 import time
 
 def udp_client():
@@ -20,9 +20,9 @@ def udp_client():
     print(f"SERVER: {response.decode()}\nServer sent from: {addr}\nRTT: {rtt:.10f} seconds\n==========")
 
 if __name__ == "__main__":
-    udp_client() """
+    udp_client()
 
-import socket
+""" import socket
 import time
 
 def udp_client():
@@ -40,4 +40,4 @@ def udp_client():
     print(f"SERVER: {response.decode()}\nServer sent from: {addr}\nRTT: {rtt:.10f} seconds\n==========")
 
 if __name__ == "__main__":
-    udp_client()
+    udp_client() """

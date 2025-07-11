@@ -1,4 +1,4 @@
-""" import socket
+import socket
 
 def tcp_server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -27,9 +27,9 @@ def tcp_server():
         print("Message successfully sent & client disconnected.\n==========")
 
 if __name__ == "__main__":
-    tcp_server() """
+    tcp_server()
 
-import socket
+""" import socket
 
 def tcp_server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -52,4 +52,4 @@ def tcp_server():
         print("Message successfully sent & client disconnected.\n==========")
 
 if __name__ == "__main__":
-    tcp_server()
+    tcp_server() """
